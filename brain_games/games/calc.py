@@ -1,6 +1,9 @@
 import operator
 import random
 
+MIN_NUMBER = 1
+MAX_NUMBER = 20
+
 
 def calculate(num1, num2, operation):
     operations = {

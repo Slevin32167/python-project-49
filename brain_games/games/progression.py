@@ -1,5 +1,12 @@
 import random
 
+MIN_START = 1
+MAX_START = 20
+MIN_STEP = 1
+MAX_STEP = 10
+MIN_LENGTH = 5
+MAX_LENGTH = 10
+
 
 def generate_progression(start, step, length):
     progression = []

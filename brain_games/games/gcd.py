@@ -1,5 +1,8 @@
 import random
 
+MIN_NUMBER = 1
+MAX_NUMBER = 50
+
 
 def find_gcd(a, b):
     while b != 0:
