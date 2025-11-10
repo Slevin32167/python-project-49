@@ -1,20 +1,25 @@
 from capitalize import capitalize
 
 
-print("Тестируем: hello → Hello")
-result = capitalize("hello")
-if result == "Hello":
-    print("Успех!")
-else:
-    print(f"Ошибка! Получили: '{result}', ожидали 'Hello'")
+print("Тест 1: Проверяем пустую строку ...")
+assert capitalize("") == ""
+print("Пустая строка работает!")
 
 
-print("Тестируем: '' → ''")
-result = capitalize("")
-if result == "":
-    print("Успех!")
-else:
-    print(f"Ошибка! Получили: '{result}', ожидали ''")
+print("Тест 2: Проверяем слово 'hello'...")
+assert capitalize("hello") == "Hello"
+print("Слово 'hello' работает!")
+
+
+print("Тест 3: Проверяем слово 'world'...")
+assert capitalize("world") == "World"
+print("Слово 'world' работает!")
+
+
+print("Тест 3: Проверяем слово 'hexlet'...")
+assert capitalize("hexlet") == "Hexlet"
+print("Слово 'hexlet' работает!")
+
 
 
 print("Все тесты завершены!")
